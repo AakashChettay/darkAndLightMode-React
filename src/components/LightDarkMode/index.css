@@ -1,0 +1,57 @@
+.container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.darkModeContainer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 15px;
+}
+.lightModeContainer {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: black;
+}
+.lightHeading {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 46px;
+  font-weight: 300;
+}
+.darkHeading {
+  color: black;
+  font-family: roboto;
+  font-size: 46px;
+  font-weight: 300;
+}
+.lightButtonStyle {
+  background-color: #ffffff;
+  width: 130px;
+  height: 45px;
+  font-size: 18px;
+  font-family: roboto;
+  border-radius: 10px;
+}
+.darkButtonStyle {
+  background-color: black;
+  width: 130px;
+  height: 45px;
+  font-size: 18px;
+  font-family: roboto;
+  color: #ffffff;
+  border-radius: 10px;
+}
